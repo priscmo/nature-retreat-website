@@ -137,6 +137,14 @@ p {
   font-size: .875em;
   line-height: 1.285;
 }
+
+img {
+  width: 100%;
+ }
+  
+ figure {
+  margin: 0;
+ }
   
 address {
  font-style: normal;
@@ -169,6 +177,14 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   background: #3a3a3a;
   width: 100%;
@@ -185,8 +201,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  
-}
+ }
 
 header nav ul {
   display: flex;
@@ -235,6 +250,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url('../img/jake-melara-30679-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -287,6 +306,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/omar-lopez-296944-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -492,7 +514,6 @@ input[type=button] {
       line-height: 1.25;
   }
 
-
     /* Header */
     header {
       justify-content: space-around;
@@ -520,6 +541,10 @@ input[type=button] {
       display: none;
     }
     /* Hero Area */
+
+    .hero-area {
+      min-height: 600px;
+    }
 
     .hero-area h1 {
       font-size: 3em;
@@ -568,7 +593,7 @@ input[type=button] {
     .reviews h2 {
       width: 85%;
     }
-
+    .review article figure,
     .reviews article div {
       width: 49%;
     }
@@ -687,7 +712,7 @@ input[type=button] {
     /* Hero */
     .hero-area h1 {
       font-size: 3.75em;
-      width: 60%;
+      width: 80%;
   }
   
     /* Aside */
