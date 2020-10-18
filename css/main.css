@@ -260,7 +260,7 @@ footer .copyright {
   background: url('../img/jake-melara-30679-unsplash.jpg');
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  min-height: 475px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -313,7 +313,7 @@ input[type=button] {
 /* Features */
 
 .features {
-  background: url('../img/omar-lopez-296944-unsplash.jpg');
+  background: url('../img/rawpixel-800820-unsplash1.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -356,7 +356,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   line-height: 1;
 }
 
@@ -659,6 +659,11 @@ input[type=button] {
         line-height: 1.285;
     }
 
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+
     footer .copyright {
       width: 100%;
     }
@@ -757,7 +762,7 @@ input[type=button] {
   
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      width: 40%;
+      width: 30%;
     }
   
     .form-description p {
